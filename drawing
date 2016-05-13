@@ -1,4 +1,9 @@
 drawing
+<html>
+<body><button onclick ="draw();">Hello!</button> 
+ <canvas id="canvas" width="500" height="500"></canvas>
+</body>
+</html>
 function draw() {
   var canvas = document.getElementById('canvas');
   if (canvas.getContext) {
